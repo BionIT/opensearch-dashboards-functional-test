@@ -24,6 +24,7 @@ const username = Cypress.env('username');
 const password = Cypress.env('password');
 
 // TODO: create datasource with basic auth and sigv4
+// TODO: add real test cases
 
 if (Cypress.env('DATASOURCE_MANAGEMENT_ENABLED')) {
   describe('Create datasources', () => {
